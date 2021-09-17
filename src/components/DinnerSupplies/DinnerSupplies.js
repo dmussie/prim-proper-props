@@ -13,7 +13,7 @@ function DinnerSupplies ({guestList}) {
             </div>
         </>
     )
-    }
+}
 
 
 export default DinnerSupplies;
