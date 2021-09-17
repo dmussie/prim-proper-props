@@ -102,8 +102,9 @@ function App() {
         </div>
         <button type="submit">Add Guest</button>
       </form>
-      <GuestList list={guestList}/>
-      <DinnerSupplies list={guestList}/>
+      <GuestList guestList={guestList}/> {/** in brackets needs to match useState */}
+      {/** before brackets needs to match whats in GuestList.js */}
+      <DinnerSupplies guestList={guestList}/>
       <Footer />
     </div>
   );
